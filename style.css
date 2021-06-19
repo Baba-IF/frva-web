@@ -20,7 +20,7 @@ body {
     height: 60px;
     margin: 0;
     border-bottom: 7px solid #f1c933;
-    /* box-shadow: 0 5px 25px 0 rgb(0 0 0 / 45%); */
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 45%);
 }
 
 .header .logo {
@@ -84,8 +84,12 @@ body {
     color: #0d49c0;
 }
 
+
+/*--------------------------------------------------------------
+# CONTENT 
+--------------------------------------------------------------*/
+
 .content {
-    border: 2px solid #073590;
     height: 20px;
     flex: 1;
 }
@@ -96,8 +100,10 @@ body {
 --------------------------------------------------------------*/
 
 .footer {
-    border: 2px solid #073590;
-    height: 60px;
+    height: 200px;
+    background: url(../img/frva-bg-footer.png);
+    border-top: 7px solid #f1c933;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 45%);
 }
 
 .footer h-footer {
